@@ -53,14 +53,10 @@ node app.js
 | POST   | /api/users/logout  | Logout              | ❌            |
 | GET    | /api/users/        | Get all users       | ✅            |
 | PUT    | /api/users/:id     | Update a user       | ✅            |
-| DELETE | /api/users/:id     | Delete a user       | ✅            |
+| DELETE | /api/users/:id     | Delete a user       | ✅            |          
 
 ## Notes
 
 - Use Postman to test the APIs.
 - For protected routes, add this header:  
   `Authorization: Bearer <your_token_here>`
-
-## License
-
-MIT License
